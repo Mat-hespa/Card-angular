@@ -115,3 +115,9 @@ p {
 .conten {
   height: 400px;
 }
+
+@media screen and (max-width: 600px){
+  .containe .car {
+    width: 300px;
+  }
+}

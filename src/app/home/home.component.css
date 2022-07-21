@@ -1,0 +1,50 @@
+
+.box  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 70vh;
+}
+
+h2 {
+  color: black;
+  font-family: 'Marker Felt';
+  font-size: 45px;
+  border-right: 1px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+span, a {
+  color: red;
+  font-family: 'Marker Felt';
+  font-size: 45px;
+  border-right: 1px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.typing-animation {
+  animation: blinkCursor 800ms steps(50) infinite normal, typing 4s steps(50) 1s normal;
+}
+
+@keyframes blinkCursor{
+  from {
+    border-right-color: white
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typing{
+  from {
+    width: 0;
+  }
+  to {
+    width: 14.5em;
+  }
+}
+

@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Marker Felt';
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.logo {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+span {
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 15px;
+  font-size: 20px;
+  /* border-radius: 8px;
+  border: solid; */
+
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover{
+  transition: all 0.5s;
+  color: red;
+}
+
+
+
+
+
+
